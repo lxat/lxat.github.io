@@ -10,14 +10,14 @@ version: 2
 name: Alexei Taylor
 title: PhD Student, Drexel University (Applied Cognitive and Brain Sciences) 
 email: at3334@drexel.edu
-website: www.github.com/lxat
+# website: www.github.com/lxat
 
 # Dark Mode (true/false/never)
 darkmode: true
 
 # Social links
 # twitter_username: facespics
-# github_username:  sproogen
+github_username:  lxat
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -79,11 +79,10 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left #top-middle
-        title: Drexel University                   Rutgers University
-        caption: 2019 - Present                    2012 - 2016
-        sub_title: Ph.D. in Psychology (M.S., 2022)                  B.A. in Psychology
+        title: Drexel University
+        caption: 2019 - Present
+        sub_title: Ph.D. in Psychology (M.S., 2022)
         description: | # this will include new lines to allow paragraphs
-        
         
   - title: Research Experience # Title for the section
     layout: list # Type of content section (list/text)
