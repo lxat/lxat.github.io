@@ -1,6 +1,7 @@
 # Site
 repository: sproogen/resume-theme
 favicon: images/favicon.ico
+# https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 # Content configuration version
 version: 2
@@ -12,7 +13,7 @@ email: at3334@drexel.edu
 website: www.github.com/lxat
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 # twitter_username: facespics
@@ -50,6 +51,7 @@ additional_links:
 about_content: | # this will include new lines to allow paragraphs
   I am a 4th year PhD student at Drexel University (expected graduation June 2024), in the Quantitative Psychology and Statistics Laboratory. My research explores application of statistical modeling (e.g., Machine Learning, Mixed effects) for analysis of Alzheimer's disease-related neuroimaging data.
 
+  This page is a WIP. 
   
 # I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
@@ -72,21 +74,6 @@ content:
 #          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
 #        description: | # this will include new lines to allow paragraphs
 #          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
-  - title: Research Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Quantiative Psychology and Statistics Laboratory
-        # link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Doctoral Student
-        caption: September 2019 - Present
-        description: | # this will include new lines to allow paragraphs
-            Current Dissertation research concerns the evaluation of putative Alzheimer's disease subtypes.
-            
-            Master's thesis evaluated the prediction of Alzheimer's disease patient 'brain age' as a biomarker for disease progression using longitudinal, multimodal neuroimaging features (e.g., MRI, PET). Results were published in _NeuroImage_ (2023).
-
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -96,11 +83,41 @@ content:
         sub_title: B.A. in Psychology
         description: | # this will include new lines to allow paragraphs
         
-      - layout: middle
+      - layout: top-middle
         title: Drexel University
         caption: 2019 - Present
         sub_title: Ph.D. in Psychology
         description: | # this will include new lines to allow paragraphs
+        
+  - title: Research Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak
+        title: Quantiative Psychology and Statistics Laboratory
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Doctoral Student
+        caption: September 2019 - Present
+        description: | 
+            Current Dissertation research concerns the evaluation of putative Alzheimer's disease subtypes.
+            
+            Master's thesis evaluated the prediction of Alzheimer's disease patient 'brain age' as a biomarker for disease progression using longitudinal, multimodal neuroimaging features (e.g., MRI, PET). Results were published in _NeuroImage_ (2023).
+      
+      - layout: left
+        border: weak
+        title: Goldstein Laboratory
+        sub_title: Research Collaborator
+        caption: September 2020 - 2023
+        description: |
+            Collaboration project evaluating the impacts of the Philadelphia police school diversion program. 
+            
+            I improved the project's data cleaning pipeline through automation and implementation of reproducible procedures and results (using the lab's preferred syntax, SPSS). 
+            
+            I led data analysis of the project (e.g., propensity score matching, proportional hazards models) using <mark>R</mark>, including follow-up analysis during the publication process. 
+            
+            This work has been published in _Psychology, Public Policy, and Law_ (2023)
+
           
 #  - title: A Little More About Me
 #    layout: text
