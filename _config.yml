@@ -32,9 +32,9 @@ darkmode: true
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
+- title: Researchgate
   icon: fas fa-globe
-  url: https://www.itsgoingto.be
+  url: https://www.researchgate.net/profile/Alexei-Taylor
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -49,9 +49,10 @@ additional_links:
 # about_title: About Me
 # about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
+  This page is a WIP!! 
+  
   I am a 4th year PhD student at Drexel University (expected graduation June 2024), in the Quantitative Psychology and Statistics Laboratory. My research explores application of statistical modeling (e.g., Machine Learning, Mixed effects) for analysis of Alzheimer's disease-related neuroimaging data.
 
-  This page is a WIP. 
   
 # I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
@@ -77,17 +78,12 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        title: Rutgers University
-        caption: 2012 - 2016
-        sub_title: B.A. in Psychology
+      - layout: left #top-middle
+        title: Drexel University                   Rutgers University
+        caption: 2019 - Present                    2012 - 2016
+        sub_title: Ph.D. in Psychology (M.S., 2022)                  B.A. in Psychology
         description: | # this will include new lines to allow paragraphs
         
-      - layout: top-middle
-        title: Drexel University
-        caption: 2019 - Present
-        sub_title: Ph.D. in Psychology
-        description: | # this will include new lines to allow paragraphs
         
   - title: Research Experience # Title for the section
     layout: list # Type of content section (list/text)
